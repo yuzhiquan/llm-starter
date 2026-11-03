@@ -57,7 +57,7 @@
 
 ## 配套代码
 
-Python 示例脚本入口已整理在 [`script/`](./script/README.md) 中：
+Python 示例脚本已统一放在 [`script/`](./script/README.md) 目录：
 
 - [analogy.py](./script/analogy.py)
 - [attention.py](./script/attention.py)

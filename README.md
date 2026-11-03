@@ -32,28 +32,50 @@
 15. [从零开始理解大模型（番外篇五）：DeepSeek V4 Pro 总参数 1.6T，激活参数 49B——这到底是什么意思？](./llm-15-moe.md)
 16. [从零开始理解大模型（番外篇六）：什么是算子？大模型里的“最小施工单位”](./llm-16-operators.md)
 
-## 建议阅读顺序
+## 精读笔记
 
-如果第一次读，建议按编号顺序阅读：
+对应 16 篇文章的逐篇精读笔记：
 
-- `llm-01` 到 `llm-05`：建立大模型内部结构直觉
-- `llm-06` 到 `llm-08`：理解训练、推理、上下文窗口
-- `llm-09` 到 `llm-10`：理解规模化与 Agent
-- `llm-11` 到 `llm-16`：补充多模态、GPU、API 计费、思考模式、MoE 与算子背景
+- [精读笔记索引](./精读笔记/README.md)
+- [01 — 猜下一个词](./精读笔记/01-猜下一个词.md)
+- [02 — Token](./精读笔记/02-Token.md)
+- [03 — Embedding](./精读笔记/03-Embedding.md)
+- [04 — Attention](./精读笔记/04-Attention.md)
+- [05 — Transformer](./精读笔记/05-Transformer.md)
+- [06 — 训练](./精读笔记/06-训练.md)
+- [07 — 推理与 KV-Cache](./精读笔记/07-推理与KV-Cache.md)
+- [08 — 上下文窗口](./精读笔记/08-上下文窗口.md)
+- [09 — Scaling Law](./精读笔记/09-Scaling-Law.md)
+- [10 — Agent](./精读笔记/10-Agent.md)
+- [11 — 多模态](./精读笔记/11-多模态.md)
+- [12 — GPU](./精读笔记/12-GPU.md)
+- [13 — Token 计费](./精读笔记/13-Token计费.md)
+- [14 — 思考模式](./精读笔记/14-思考模式.md)
+- [15 — MoE](./精读笔记/15-MoE.md)
+- [16 — 算子](./精读笔记/16-算子.md)
+- [精读笔记合订本](./从零开始理解大模型-精读笔记合订本.md)
 
 ## 配套代码
 
-本目录同时包含文章中提到的示例代码，例如：
+Python 示例脚本入口已整理在 [`script/`](./script/README.md) 中：
 
-- `predict.py`
-- `generate.py`
-- `tokenizer_demo.py`
-- `bpe_demo.py`
-- `embedding.py`
-- `attention.py`
-- `multi_head.py`
-- `train_tiny.py`
-- `inference.py`
-- `tiny_agent.py`
+- [analogy.py](./script/analogy.py)
+- [attention.py](./script/attention.py)
+- [bpe_demo.py](./script/bpe_demo.py)
+- [context_embedding.py](./script/context_embedding.py)
+- [context_window.py](./script/context_window.py)
+- [embedding.py](./script/embedding.py)
+- [fetch.py](./script/fetch.py)
+- [generate.py](./script/generate.py)
+- [inference.py](./script/inference.py)
+- [multi_head.py](./script/multi_head.py)
+- [predict.py](./script/predict.py)
+- [scaling_law.py](./script/scaling_law.py)
+- [tiny_agent.py](./script/tiny_agent.py)
+- [token_cost.py](./script/token_cost.py)
+- [tokenizer_demo.py](./script/tokenizer_demo.py)
+- [train_tiny.py](./script/train_tiny.py)
+- [transformer_anatomy.py](./script/transformer_anatomy.py)
+- [visualize.py](./script/visualize.py)
 
 可按各篇文章中的说明分别运行。
